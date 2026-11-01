@@ -1,0 +1,11 @@
+node_modules/
+# secrets: keys come from the environment; these catch accidents
+.elevenlabs_key
+.env
+# your videos: projects/<name>/ (scaffolded from template/). Keep them here, or link this folder to wherever you
+# keep them (see README). Their .cache/ holds paid voice audio.
+/projects/
+# over GitHub's 100 MB file limit (setup downloads it)
+tools/models/kokoro-v1.0.onnx
+__pycache__/
+*.pyc
